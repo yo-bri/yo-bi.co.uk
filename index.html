@@ -141,7 +141,7 @@
                     "date": "2025-07-26",
                     "content": "I like the idea of discord bots that read out messages to a vc, its a useful feature for those who dont have mics. However, the one i currently use doesnt have that great of voices as its limited to Google TTS, therefore ive made my own bot!\n[image1]\nRemTTS is a bot that uses ElevenLabs to speak your messages out in a way more expressive set a voices, it sounds realistic and nicer to listen to. Go from a robot to sounding like a real person.\n\nRem uses ElevenLabs as the main TTS component, but if that ever fails we resort to GoogleTTS. Why would it fail? Many reasons, the first reason is filtered content, I have to make sure they follow Elevens API usage policies (we resort to google TTS here), or if keys fail. Since an API key is limited to 10k characters, I let users import their own API keys for my bot to use, this makes the bot \"Community Driven\" to an extent.\n[Invite The Bot Here.](https://discord.com/oauth2/authorize?client_id=1397691291214807180&permissions=8&integration_type=0&scope=bot)",
                     "images": {
-                        "image1": "{{ url_for('static', filename='RemTTS-1.jpg') }}"
+                        "image1": "static/RemTTS-1.jpg"
                     }
                 },
                 {
@@ -149,7 +149,7 @@
                     "date": "2025-07-11",
                     "content": "CSS vs no CSS. I like to see the difference between having a CSS chunk vs without, its really cool to see the base of the website and then see how it was changed to look pretty! [image1]",
                     "images": {
-                        "image1": "{{ url_for('static', filename='website-1.jpg') }}"
+                        "image1": "static/website-1.jpg"
                     }
                 },
                 {
@@ -157,8 +157,8 @@
                     "date": "2025-07-10",
                     "content": "OtherSide is a game a friend of mine is making, its like MiSide but with a different story I believe. Im sure this will be a great game when it comes out :D\n\nJoin the [Discord Server](https://discord.gg/C7rpFNSzk5) to stay updated! [image1]\n\nThey've just gone into public testing, heres a little showcase of that ^^ [gif1]",
                     "images": {
-                        "image1": "{{ url_for('static', filename='OtherSide-1.jpg') }}",
-                        "gif1": "{{ url_for('static', filename='OtherSide-1.gif') }}"
+                        "image1": "static/OtherSide-1.jpg",
+                        "gif1": "static/OtherSide-1.gif"
                     }
                 },
                 {
@@ -166,7 +166,7 @@
                     "date": "2025-07-10",
                     "content": "Dara. [image1]",
                     "images": {
-                        "image1": "{{ url_for('static', filename='Dara.jpg') }}"
+                        "image1": "static/Dara.jpg"
                     }
                 },
                 {
@@ -174,7 +174,7 @@
                     "date": "2025-07-10",
                     "content": "CakePixell. [image1]",
                     "images": {
-                        "image1": "{{ url_for('static', filename='CakePixell.jpg') }}"
+                        "image1": "static/CakePixell.jpg"
                     }
                 }
             ]
@@ -408,3 +408,4 @@
 </body>
 
 </html>
+
